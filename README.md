@@ -1,8 +1,6 @@
 # projekt_4
-Slideshow Test Site
+Stacking Slideshow Test Site
 
-
-This Test-Site has been created to try and create a stacking slideshow.
 
 For the slideshow I am using the code posted on codepen: https://codepen.io/mirja-t/pen/rNRVaYx
 
