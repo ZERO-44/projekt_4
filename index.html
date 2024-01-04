@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Slideshow</title>
+
+  <!--
+I would like to begin by acknowledging, at top of the page, that a significant portion of the Code used in building this website was made possible by Mirja. Please see a link to the original code posted on their CodePen page at: https://codepen.io/mirja-t/pen/rNRVaYx
+
+In addition, the stacking Card effect was achieved by following a tutorial posted by Winterwind Inc. You can find the tutorial here: https://www.youtube.com/watch?v=4oPAULoBJ74
+ -->
+
+
+</head>
+
+<body>
+
+  <input type="radio" id="controls" name="type" value="controls" checked>
+
+  <div class="media-container">
+
+    <ul id="cards">
+
+
+      <li id="card1" class="card">
+        <div class="card-body">
+          <h2>Card 1</h2>
+        </div>
+      </li>
+
+
+      <li id="card2" class="card">
+        <div class="card-body">
+          <h2>Card 2</h2>
+        </div>
+      </li>
+
+
+      <li id="card3" class="card">
+        <div class="card-body">
+          <h2>Card 3</h2>
+        </div>
+      </li>
+
+
+      <li id="card4" class="card">
+        <div class="card-body">
+          <h2>Card 4</h2>
+        </div>
+      </li>
+
+
+      <li id="card5" class="card">
+        <div class="card-body">
+
+
+
+          <!-- slideshow Start ! -->
+
+
+          <input type="radio" id="option-1" name="slider" value="option-1" checked>
+
+          <input type="radio" id="option-2" name="slider" value="option-2">
+
+          <input type="radio" id="option-3" name="slider" value="option-3">
+
+          <input type="radio" id="option-4" name="slider" value="option-4">
+
+          <input type="radio" id="option-5" name="slider" value="option-5">
+
+
+          <ol class="container">
+
+
+            <li class="slide slide-1">
+              <h2>Slide 1</h2>
+            </li>
+
+
+            <li class="slide slide-2">
+              <h2>Slide 2</h2>
+            </li>
+
+
+            <li class="slide slide-3">
+              <h2>Slide 3</h2>
+            </li>
+
+
+            <li class="slide slide-4">
+              <h2>Slide 4</h2>
+            </li>
+
+
+            <li class="slide slide-5">
+              <h2>Slide 5</h2>
+            </li>
+
+
+            <li class="slide slide-1">
+              <h2>Slide 1</h2>
+            </li>
+
+
+          </ol>
+
+          <span class="slide-indicator"></span>
+
+
+
+
+          <!-- slideshow End ! -->
+
+        </div>
+      </li>
+
+
+    </ul>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
