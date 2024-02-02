@@ -1,5 +1,6 @@
 _# projekt_4_
-Stacking Slideshow Test Site
+Slideshow Template
+https://zero-44.github.io/projekt_4/
 
 
 For the slideshow, I am using code posted on codepen by Mirja: https://codepen.io/mirja-t/pen/rNRVaYx
